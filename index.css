@@ -1,0 +1,95 @@
+@font-face {
+    font-family: inter;
+    src: url(fonts/Inter/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: vollkorn;
+    src: url(fonts/Vollkorn/static/Vollkorn-Italic.ttf);
+}
+
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: #D0D0D0;
+    text-align: left;
+    font-family: inter;
+    font-size: 40px;
+}
+
+p {
+    font-family: vollkorn;
+    color: #D0D0D0;
+    font-size: 30px;
+}
+
+li {
+    font-family: vollkorn;
+    color: #D0D0D0;
+    font-size: 30px;
+}
+
+
+
+#name {
+    padding-left: 120px;
+    padding-top: 40px;
+}
+
+#vertical-container {
+    padding-top: 30px;
+    display: flex;
+
+}
+
+
+@keyframes floating {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+#intro-blurb {
+    padding-left: 120px;
+    width: 20%;
+
+
+}
+
+#project-list {}
+
+#img-container {}
+
+#project1 {
+    position: absolute;
+
+    z-index: 3;
+}
+
+
+
+#swirly {
+
+    padding-left: 29rem;
+
+    object-fit: contain;
+    text-align: center;
+
+
+    z-index: 1;
+}
