@@ -7,7 +7,7 @@
 
     function startDownload() {
 
-        let imageURL = "https://freight.cargo.site/t/original/i/b859196a3649ae5336530235e4a9a40e4e6af7e1fadc6248e7f544a33a4f1307/Screen-Shot-2022-08-12-at-11.56.11-AM.png"
+        let imageURL = "https://freight.cargo.site/t/original/i/3bfd06468433baeba5d5fb29c2cae76e642daa0e4942bc63ba79afe607864a1a/Screenshot-2023-05-20-at-6.27.08-PM.png"
         img.crossOrigin = "Anonymous";
         img.addEventListener("load", waterRipple, false);
         img.src = imageURL;
@@ -17,7 +17,7 @@
     function waterRipple() {
         var canvas = document.createElement('canvas'),
             ctx = canvas.getContext('2d'),
-            width = 300,
+            width = 500,
             height = 100,
             half_width = width >> 1,
             half_height = height >> 1,
@@ -36,7 +36,7 @@
 
         canvas.width = width;
         canvas.height = height;
-        ctx.drawImage(img, 0, 0, 400, 150);
+        ctx.drawImage(img, 0, 0, 150, 50);
         canvas.style.left = img.offsetLeft + 'px';
         canvas.style.top = img.offsetTop + 'px';
         canvas.id = "swirly";

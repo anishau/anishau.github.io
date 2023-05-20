@@ -41,7 +41,7 @@ li {
 
 #vertical-container {
     padding-top: 30px;
-    display: flex;
+    padding-left:10%;
 
 }
 
@@ -66,15 +66,18 @@ li {
 
 #intro-blurb {
 
-    max-width: 20%;
-    margin:left;
+
+ padding-top: 40px;
+ padding-left:20px;
 
 
 }
 
 #project-list {}
 
-#img-container {}
+#img-container {
+    padding-top:20px;
+}
 
 #project1 {
     position: absolute;
@@ -86,7 +89,7 @@ li {
 
 #swirly {
 
-    padding-left: 29rem;
+    padding-left: 32rem;
 
     object-fit: contain;
     text-align: center;
